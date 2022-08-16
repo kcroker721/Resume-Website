@@ -1,0 +1,138 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a {
+    color: #4169E1;
+}
+
+.active_wrap{
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+a:visited { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+
+body {
+    background: linear-gradient(to right, #ADD8E6, #4169E1)
+}
+
+.resume {
+    width: 800px;
+    background: #fff;
+    margin: 25px auto;
+    display: flex;
+}
+
+.left {
+    width: 250px;
+    background: #899498;
+    padding: 0 15px;
+    margin: 0 10px 0 0;
+}
+
+.right{
+    width: calc(100% - 250px);
+}
+
+.left .profile_image{
+    text-align: center;
+    padding: 20px, 0;
+}
+
+.left .profile_image img{
+    width: 200px;
+    margin: 5px;
+    border-radius: 100px;
+    border-bottom-right-radius: 105px;
+}
+
+.title{
+    color: #4169E1;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.left .contact_icon{
+    font-size: 25px;
+    color: #4169E1;
+    padding: 3px;
+}
+
+.left .contact_text{
+    color: #4169E1;
+    font-size: 20px;
+}
+
+.left .contact_wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact_wrap_active {
+    display: flex;
+    align-items: baseline;
+    width: min-content;
+    margin-bottom: 0px;
+}
+
+.left .contact_wrap .contact_icon{
+    width: 40px;
+    height: 40px;
+    background: white;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.left .contact_wrap .contact_text{
+    width: calc(100% - 50px);
+}
+
+.left .skill_title, .left .hobby_title{
+    color: #4169E1;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.left .skill_icon, .left .hobby_icon{
+    font-size: 25px;
+    color: #4169E1;
+    padding: 3px;
+}
+
+.left .skill_text, .left .hobby_text{
+    color: #4169E1;
+    font-size: 20px;
+}
+
+.skills ul, .hobbies ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left .skill_wrap, .left .hobby_wrap{
+    width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    background: white;
+}
