@@ -136,3 +136,11 @@ body {
 	justify-content: center;
     background: white;
 }
+
+.date {
+	font-weight: bold;
+}
+
+.info-title {
+	font-weight: bold;
+}
